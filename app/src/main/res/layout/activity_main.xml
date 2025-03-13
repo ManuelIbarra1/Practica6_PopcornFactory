@@ -37,7 +37,7 @@
             android:id="@+id/boton"
             android:layout_marginTop="25dp"
             android:layout_width="237dp"
-            android:layout_height="39dp"
+            android:layout_height="48dp"
             android:text="@string/getMeIn"
             android:textAlignment="center"
             android:textColor="@color/black"
