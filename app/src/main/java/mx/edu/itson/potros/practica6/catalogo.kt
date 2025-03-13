@@ -29,8 +29,8 @@ class catalogo : AppCompatActivity() {
         cargarPeliculas()
         cargarSeries()
 
-        adapter = PeliculaAdapter(context = this, peliculas)
-        seriesAdapter = PeliculaAdapter(context = this, series)
+        adapter = PeliculaAdapter(this, peliculas)
+        seriesAdapter = PeliculaAdapter(this, series)
 
         var gridPelis: GridView = findViewById(R.id.movies_catalogo)
         var gridSeries: GridView = findViewById(R.id.series_catalogo)
